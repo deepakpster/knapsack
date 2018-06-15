@@ -1,0 +1,22 @@
+:global {
+  html,
+  body {
+    background-color: #f9f9f9;
+    height: 100%;
+    width: 100%;
+    & *:not(i) {
+      font-family: "Nunito", sans-serif;;
+    }
+    #app {
+      height: inherit;
+      display: grid;
+    }
+  }
+  
+  .clickable {
+    cursor: pointer;
+  }
+  .hidden {
+    display: none!important;
+  }
+}

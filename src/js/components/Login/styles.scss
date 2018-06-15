@@ -1,0 +1,17 @@
+:local {
+  .loginContainer {
+    height: 100%;
+    display: flex;
+    .loginForm {
+      margin: auto;
+      input,
+      .loginFooter {
+        margin: 5px 0;
+      }
+      .loginFooter {
+        display: flex;
+        justify-content: space-between;
+      }
+    }
+  }
+}
